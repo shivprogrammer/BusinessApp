@@ -10,5 +10,10 @@ module.exports = StyleSheet.create({
     backgroundColor: '#f4f4f4',
     padding: 5,
     marginBottom: 5
+  },
+  sectionText: {
+    padding: 15,
+    lineHeight: 25,
+    textAlign: 'center'
   }
 });
