@@ -8,6 +8,10 @@ import {
 const styles = require('../../style');
 
 export default class Home extends Component {
+  doSomething() {
+    
+  }
+
   render() {
     return (
       <View>
@@ -30,6 +34,7 @@ export default class Home extends Component {
           <Button
             title="Submit"
             color="#841584"
+            onPress={this.doSomething}
           />
         </View>
       </View>
