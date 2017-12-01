@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import {
-  Platform,
-  StyleSheet,
   Text,
   View
 } from 'react-native';
-
 var styles = require('../../style');
 
 export default class Home extends Component {

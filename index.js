@@ -16,10 +16,10 @@ export default class ShivvyBusinessApp extends Component {
     return (
       <View>
         <View style={styles.imageWrap}>
-          <Image style={styles.image} source={require('./assets/logo.png')} />
+          <Image style={styles.image} source={require('./logo.png')} />
         </View>
 
-        <ScrollView style={styles.scrollView}>          
+        <ScrollView style={styles.scrollView}>
           <Home />
           <About />
           <Contact />

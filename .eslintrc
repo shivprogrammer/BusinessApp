@@ -3,6 +3,7 @@
   "rules": {
     "arrow-body-style": 0,
     "import/newline-after-import": 0,
-    "no-var": 0
+    "no-var": 0,
+    "max-len": 0,
   }
 }
