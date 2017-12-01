@@ -3,7 +3,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  TextInput
 } from 'react-native';
 
 const styles = require('../../style');
@@ -14,6 +15,12 @@ export default class Home extends Component {
     return (
       <View>
         <Text style={styles.heading}>Contact</Text>
+        <View>
+          <TextInput
+            style={{ height: 40 }}
+            placeholder="Enter Name"
+          />
+        </View>
       </View>
     );
   }
