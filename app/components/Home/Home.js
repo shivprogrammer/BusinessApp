@@ -6,20 +6,13 @@ import {
   View
 } from 'react-native';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+var styles = require('../../style');
 
 export default class Home extends Component {
   render() {
     return (
       <View>
-        <Text>
-          Welcome
-        </Text>
+        <Text style={styles.heading}>Welcome</Text>
       </View>
     );
   }
